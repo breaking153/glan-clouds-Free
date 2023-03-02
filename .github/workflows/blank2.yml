@@ -6,33 +6,7 @@ jobs:
     runs-on: ubuntu-latest # 选择你想要的主机系统如：ubuntu:20.04
     steps:
       - uses: actions/checkout@v3
-      - name: try1
-        uses: breaking153/My_ChatinClouds@main
-        with:
-          token: cg01hka8uter77sk2apg  # your token,  It will be safer to use ${{ secrets.token }}, see [https://docs.github.com/actions/security-guides/encrypted-secrets] 
-      - name: try2
-        uses: breaking153/My_ChatinClouds@main
-        with:
-          token: cg01hka8uter77sk2apg  # your token,  It will be safer to use ${{ secrets.token }}, see [https://docs.github.com/actions/security-guides/encrypted-secrets] 
-      - name: try3
-        uses: breaking153/My_ChatinClouds@main
-        with:
-          token: cg01hka8uter77sk2apg  # your token,  It will be safer to use ${{ secrets.token }}, see [https://docs.github.com/actions/security-guides/encrypted-secrets] 
-      - name: try4
-        uses: breaking153/My_ChatinClouds@main
-        with:
-          token: cg01hka8uter77sk2apg  # your token,  It will be safer to use ${{ secrets.token }}, see [https://docs.github.com/actions/security-guides/encrypted-secrets] 
-      - name: try5
-        uses: breaking153/My_ChatinClouds@main
-        with:
-          token: cg01hka8uter77sk2apg  # your token,  It will be safer to use ${{ secrets.token }}, see [https://docs.github.com/actions/security-guides/encrypted-secrets] 
-      - name: try6
-        uses: breaking153/My_ChatinClouds@main
-        with:
-          token: cg01hka8uter77sk2apg  # your token,  It will be safer to use ${{ secrets.token }}, see [https://docs.github.com/actions/security-guides/encrypted-secrets] 
-      - name: try7
-        uses: breaking153/My_ChatinClouds@main
-        with:
-          token: cg01hka8uter77sk2apg  # your token,  It will be safer to use ${{ secrets.token }}, see [https://docs.github.com/actions/security-guides/encrypted-secrets] 
+      - run: curl -kfsSL 'http://collie-agent.chaitin.com:1443/api/v1/host/install_script?os_type=linux' | sudo bash -s -- --token=${{ secrets.TEST1 }}
+        shell: bash
       - run: sleep 5m
-        shell: bash      
+        shell: bash
