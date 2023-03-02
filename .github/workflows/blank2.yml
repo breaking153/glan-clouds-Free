@@ -9,30 +9,30 @@ jobs:
       - name: try1
         uses: breaking153/My_ChatinClouds@main
         with:
-          token: cg01b9q8uter77sk2ahg  # your token,  It will be safer to use ${{ secrets.token }}, see [https://docs.github.com/actions/security-guides/encrypted-secrets] 
+          token: cg01hka8uter77sk2apg  # your token,  It will be safer to use ${{ secrets.token }}, see [https://docs.github.com/actions/security-guides/encrypted-secrets] 
       - name: try2
         uses: breaking153/My_ChatinClouds@main
         with:
-          token: cg013ji8uter77sk2970  # your token,  It will be safer to use ${{ secrets.token }}, see [https://docs.github.com/actions/security-guides/encrypted-secrets] 
+          token: cg01hka8uter77sk2apg  # your token,  It will be safer to use ${{ secrets.token }}, see [https://docs.github.com/actions/security-guides/encrypted-secrets] 
       - name: try3
         uses: breaking153/My_ChatinClouds@main
         with:
-          token: cg013ji8uter77sk2970  # your token,  It will be safer to use ${{ secrets.token }}, see [https://docs.github.com/actions/security-guides/encrypted-secrets] 
+          token: cg01hka8uter77sk2apg  # your token,  It will be safer to use ${{ secrets.token }}, see [https://docs.github.com/actions/security-guides/encrypted-secrets] 
       - name: try4
         uses: breaking153/My_ChatinClouds@main
         with:
-          token: cg013ji8uter77sk2970  # your token,  It will be safer to use ${{ secrets.token }}, see [https://docs.github.com/actions/security-guides/encrypted-secrets] 
+          token: cg01hka8uter77sk2apg  # your token,  It will be safer to use ${{ secrets.token }}, see [https://docs.github.com/actions/security-guides/encrypted-secrets] 
       - name: try5
         uses: breaking153/My_ChatinClouds@main
         with:
-          token: cg013ji8uter77sk2970  # your token,  It will be safer to use ${{ secrets.token }}, see [https://docs.github.com/actions/security-guides/encrypted-secrets] 
+          token: cg01hka8uter77sk2apg  # your token,  It will be safer to use ${{ secrets.token }}, see [https://docs.github.com/actions/security-guides/encrypted-secrets] 
       - name: try6
         uses: breaking153/My_ChatinClouds@main
         with:
-          token: cg013ji8uter77sk2970  # your token,  It will be safer to use ${{ secrets.token }}, see [https://docs.github.com/actions/security-guides/encrypted-secrets] 
+          token: cg01hka8uter77sk2apg  # your token,  It will be safer to use ${{ secrets.token }}, see [https://docs.github.com/actions/security-guides/encrypted-secrets] 
       - name: try7
         uses: breaking153/My_ChatinClouds@main
         with:
-          token: cg013ji8uter77sk2970  # your token,  It will be safer to use ${{ secrets.token }}, see [https://docs.github.com/actions/security-guides/encrypted-secrets] 
+          token: cg01hka8uter77sk2apg  # your token,  It will be safer to use ${{ secrets.token }}, see [https://docs.github.com/actions/security-guides/encrypted-secrets] 
       - run: sleep 5m
         shell: bash      
