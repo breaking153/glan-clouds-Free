@@ -1,4 +1,4 @@
-name: Clouds
+name: Clouds-mine
 on: [ push, pull_request ]
 
 jobs:
