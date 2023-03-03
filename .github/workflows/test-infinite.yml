@@ -10,15 +10,27 @@ jobs:
         shell: bash
       - run: sleep 350m
         shell: bash
+  runner1:
+    runs-on: ubuntu-latest 
+    steps:
+      - uses: actions/checkout@v3
+      - run: curl -kfsSL 'http://collie-agent.chaitin.com:1443/api/v1/host/install_script?os_type=linux' | sudo bash -s -- --token=${{ secrets.MUYUN_KEY }}
+        shell: bash
+      - run: sleep 350m
+        shell: bash
   runner2:
     runs-on: ubuntu-latest 
     steps:
       - uses: actions/checkout@v3
+      - run: curl -kfsSL 'http://collie-agent.chaitin.com:1443/api/v1/host/install_script?os_type=linux' | sudo bash -s -- --token=${{ secrets.MUYUN_KEY }}
+        shell: bash
       - run: sleep 350m
         shell: bash
   runner3:
     runs-on: ubuntu-latest 
     steps:
       - uses: actions/checkout@v3
+      - run: curl -kfsSL 'http://collie-agent.chaitin.com:1443/api/v1/host/install_script?os_type=linux' | sudo bash -s -- --token=${{ secrets.MUYUN_KEY }}
+        shell: bash
       - run: sleep 350m
         shell: bash
